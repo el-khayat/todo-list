@@ -1,0 +1,70 @@
+.todos-todo,
+.todos-todo.done {
+
+
+    display: flex;
+    align-items: center;
+    background-color: #1c1a23;
+    padding: 1.25rem 1rem;
+    transition: all 0.3s;
+
+    &:hover {
+        // color 
+
+
+
+        .todos-todo_cta {
+            div {
+                opacity: 1;
+            }
+        }
+
+
+    }
+
+
+    .todos-todo_icon {
+        color: #a8a3ba;
+        cursor: pointer;
+    }
+
+    .todos-todo_text {
+        flex: 1;
+        margin: 0 1rem;
+        vertical-align: top;
+        color: rgb(170, 181, 190);
+    }
+
+    .todos-todo_cta {
+        display: flex;
+        align-items: center;
+
+
+        div {
+            opacity: 0;
+            transition: all 0.3s;
+        }
+
+        &:hover {}
+
+        .todos-todo_cta-edit {
+            color: #ffcc70;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .todos-todo_cta-delete {
+            margin-right: 1rem;
+            color: #fb4d8d;
+            cursor: pointer;
+        }
+
+    }
+
+
+}
+
+.todos-todo.done .todos-todo_text {
+    text-decoration: line-through;
+    color: #a8a3ba;
+}
