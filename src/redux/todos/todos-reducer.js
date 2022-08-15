@@ -7,22 +7,22 @@ const INITIAL_STATE = {
   todos :[
     {
       id:1,
-      title : "todo talata  1 from store " ,
+      title : "make breakfast " ,
       done : false 
     },
     {
       id:2,
-      title : "todo 2" ,
+      title : "open IDE " ,
       done : true 
     },
     {
       id:3,
-      title : "todo 3 from store " ,
+      title : "start coding  " ,
       done : false 
     },
     {
       id:4,
-      title : "todo 4 sdc ascw awcqw qwcq" ,
+      title : "repeate" ,
       done : true 
     }
   ] };
